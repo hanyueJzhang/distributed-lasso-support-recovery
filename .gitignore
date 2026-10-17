@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Original or derived datasets
+data/*.csv
+data/*.tsv
+data/*.parquet
+data/*.npy
+data/*.npz
+
+# Generated artifacts
+artifacts/
+outputs/
+
