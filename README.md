@@ -60,10 +60,6 @@ The demo generates three heterogeneous nodes, tunes local regularization paramet
 - Support comparison against a pooled reference estimator
 
 ## Data and Privacy
-
-- No original course dataset is included.
-- No personal, customer, or institutional records are included.
-- No credentials, API keys, student identifiers, or absolute local paths are included.
 - `data/README.md` documents the expected format for users who have their own authorized data.
 
 Before applying this code to real distributed data, add secure transport, authentication, access controls, and formal privacy mechanisms. Sharing model parameters alone does not guarantee differential privacy.
